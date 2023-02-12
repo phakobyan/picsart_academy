@@ -3,6 +3,8 @@ int main()
 {
 	char letter;
 	scanf("%c", &letter);
+	if(letter >='A' && letter <= 'z')
+	{
 	switch(letter)
 	{
 		case 'a':
@@ -24,5 +26,8 @@ int main()
 			break;
 
 	}
+	}
+	else
+		printf("write a character");
 	return 0;
 }
