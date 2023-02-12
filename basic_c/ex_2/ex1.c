@@ -12,6 +12,6 @@ int main ()
 		printf("Odd Number\n");
 	}
 	else
-		printf("Write a natural number\n");
+		printf("Write a Positive intger\n");
 	return 0;
 }
